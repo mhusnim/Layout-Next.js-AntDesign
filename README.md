@@ -2,7 +2,7 @@
 
 ## Next.JS + Ant Design
 
-## setup
+#### setup
 In order to follow along with this lesson, you need to have a simple Next.js app With Ant Design Library. For that, download the following example app:
 
 ```
