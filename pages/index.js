@@ -2,7 +2,11 @@ import Page from '../components/MyLayout.js'
 import Link from 'next/link'
 
 const linkStyle = {
-  marginRight: 15
+  marginRight: 15,
+  lineHeight: 50,
+  width: '100%',
+  height: 50,
+  backgroundColor: '#eee'
 }
 
 export default () => (
@@ -24,18 +28,6 @@ export default () => (
       </Link>
       <Link href="/CustomTrigger/pageFive">
         <a style={linkStyle}>Custom Trigger</a>
-      </Link>
-      <Link href="/Responsive/pageSix">
-        <a style={linkStyle}>Responsive</a>
-      </Link>
-      <Link href="/FixedHeader/pageSeven">
-        <a style={linkStyle}>Fixed Header</a>
-      </Link>
-      <Link href="/FixedSider/pageEight">
-        <a style={linkStyle}>Fixed Sider</a>
-      </Link>
-      <Link href="/FixedHeaderSider/pageNine">
-        <a style={linkStyle}>Fixed Header-Sider</a>
       </Link>
     </div>
 )

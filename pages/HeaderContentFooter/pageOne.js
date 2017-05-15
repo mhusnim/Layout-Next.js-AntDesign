@@ -62,7 +62,7 @@ export default class App extends Component {
       </p>
 
       <div style={{padding: '0 18%', marginTop: 25}}>
-        <Layout className="layout">
+        <Layout style={{border: '3px solid #eee'}}>
           <Header>
             <Img src={"/logo.png"} />
 

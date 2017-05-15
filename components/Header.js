@@ -82,18 +82,6 @@ export default ({ children, title = 'Belajar Next.JS' }) => (
         <Link href="/CustomTrigger/pageFive">
           <button style={linkStyle}>Custom Trigger</button>
         </Link>
-        <Link href="/Responsive/pageSix">
-          <button style={linkStyle}>Responsive</button>
-        </Link>
-        <Link href="/FixedHeader/pageSeven">
-          <button style={linkStyle}>Fixed Header</button>
-        </Link>
-        <Link href="/FixedSider/pageEight">
-          <button style={linkStyle}>Fixed Sider</button>
-        </Link>
-        <Link href="/FixedHeaderSider/pageNine">
-          <button style={linkStyle}>Fixed Header-Sider</button>
-        </Link>
       </nav>
     </header>
 

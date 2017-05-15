@@ -55,7 +55,7 @@ export default class App extends Component {
       </p>
 
       <div style={{padding: '0 18%', marginTop: 25}}>
-        <Layout>
+        <Layout style={{border: '3px solid #eee'}}>
           <Header className="header">
             <div className="logo" />
             <Menu
